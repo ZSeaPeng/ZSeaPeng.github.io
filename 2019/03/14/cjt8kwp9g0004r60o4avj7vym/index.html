@@ -111,13 +111,13 @@
 <meta property="og:site_name" content="那个安琪拉的博客">
 <meta property="og:description" content="Spring Boot 项目war包部署 因为spring boot 内镶嵌了tomcat容器，打包成war 部署时会和部署的tomcat冲突，所以需要打包时排除掉内部的tomcat  在pom.xml 中进行修改：12345&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifact">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.30.25.png">
+<meta property="og:image" content="http://static.weizhuce.top/img/WX20190314-200327.png">
 <meta property="og:image" content="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.29.35.png">
-<meta property="og:updated_time" content="2019-03-14T11:57:19.392Z">
+<meta property="og:updated_time" content="2019-03-14T12:03:54.238Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="spring boot 打包 war">
 <meta name="twitter:description" content="Spring Boot 项目war包部署 因为spring boot 内镶嵌了tomcat容器，打包成war 部署时会和部署的tomcat冲突，所以需要打包时排除掉内部的tomcat  在pom.xml 中进行修改：12345&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifact">
-<meta name="twitter:image" content="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.30.25.png">
+<meta name="twitter:image" content="http://static.weizhuce.top/img/WX20190314-200327.png">
 
 
 
@@ -433,13 +433,12 @@
 <li><p>如果spring boot 应用是拉取配置中心配置的，需要关闭spring cloud config，并将配置内容添加到本地application.yml文件内。</p>
 <h6 id="关闭spring-cloud-config："><a href="#关闭spring-cloud-config：" class="headerlink" title="关闭spring cloud config："></a><em>关闭spring cloud config：</em></h6></li>
 </ol>
-<p><img src="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.30.25.png" alt></p>
+<p><img src="http://static.weizhuce.top/img/WX20190314-200327.png" alt></p>
 <ol start="3">
 <li>在spring boot 启动类中继承 </li>
 </ol>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SpringBootServletInitializer</span><br></pre></td></tr></table></figure>
-<p>######<em>覆写 configure  方法:</em></p>
-<p><img src="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.29.35.png" alt> </p>
+<h6 id="覆写-configure-方法"><a href="#覆写-configure-方法" class="headerlink" title="覆写 configure  方法:"></a><em>覆写 configure  方法:</em></h6><p><img src="http://static.weizhuce.top/img/屏幕快照 2018-01-25 下午4.29.35.png" alt> </p>
 <ol start="4">
 <li>over</li>
 </ol>
@@ -657,7 +656,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Spring-Boot-项目war包部署"><span class="nav-number">1.</span> <span class="nav-text">Spring Boot 项目war包部署</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#在pom-xml-中进行修改："><span class="nav-number">1.0.1.</span> <span class="nav-text">在pom.xml 中进行修改：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#关闭spring-cloud-config："><span class="nav-number">1.0.2.</span> <span class="nav-text">关闭spring cloud config：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Spring-Boot-项目war包部署"><span class="nav-number">1.</span> <span class="nav-text">Spring Boot 项目war包部署</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#在pom-xml-中进行修改："><span class="nav-number">1.0.1.</span> <span class="nav-text">在pom.xml 中进行修改：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#关闭spring-cloud-config："><span class="nav-number">1.0.2.</span> <span class="nav-text">关闭spring cloud config：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#覆写-configure-方法"><span class="nav-number">1.0.3.</span> <span class="nav-text">覆写 configure  方法:</span></a></li></ol></li></ol></div>
             
 
           </div>
